@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  	<system.webServer>
+		<modules runAllManagedModulesForAllRequests="true">
+			<add name="DemoHttpModule" type="DemoHttpModule.DemoHttpModule"/>
+		</modules>
+	</system.webServer>	
+</configuration>
